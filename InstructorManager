@@ -1,1 +1,6 @@
+package javaCamp3;
 
+public class InstructorManager extends UserManager {
+	
+	
+	}
