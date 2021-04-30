@@ -1,1 +1,22 @@
+package javaCamp3;
 
+
+
+public class Main {
+
+	 public static void main(String[] args) {
+		
+		
+	 UserManager userManager = new UserManager();
+	 
+	 userManager.registerToCourse(new StudentManager());
+	 
+	 
+    
+	 
+	 User user = new User();
+	 
+	 user.setCourseName("Kurs adı: JAVA + REACT");
+	 
+	 System.out.println(user.getCourseName());
+	
