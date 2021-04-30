@@ -1,1 +1,29 @@
+package javaCamp3;
+
+public class Instructor extends User {
+	
+	int salary;
+
+	public Instructor(int salary) {
+		
+		super();
+		this.salary = salary;
+		
+	}
+	
+	
+	
+
+	public int getSalary() {
+		return salary;
+		
+	}
+
+	
+	
+	
+	
+	
+
+}
 
