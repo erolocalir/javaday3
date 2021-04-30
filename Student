@@ -1,1 +1,28 @@
+package javaCamp3;
+
+public class Student extends User{
+	
+	String Homework;
+	
+
+	public Student(String homework) {
+		
+		super();
+		this.Homework = homework;
+		
+		
+	}
+	
+
+
+	public String getHomework() {
+		return Homework;
+		
+	}
+
+
+	
+	
+
+}
 
