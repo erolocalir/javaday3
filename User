@@ -1,1 +1,67 @@
+package javaCamp3;
+
+public class User {
+	
+	int id;
+	String courseName;
+	String EMail;
+	
+	
+	
+	
+	public User () {
+		
+		
+	}
+
+
+
+	public User(int id, String courseName, String EMail) {
+		
+		super();
+		this.id = id;
+		this.courseName = courseName;
+		this.EMail = EMail;
+    
+	}
+
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public String getCourseName() {
+		return courseName;
+	}
+
+
+
+	public void setCourseName(String courseName) {
+		this.courseName = courseName;
+	}
+
+
+
+	public String getEMail() {
+		return EMail;
+	}
+
+
+
+	public void setEMail(String EMail) {
+		this.EMail = EMail;
+	}
+
+
+
+}
 
